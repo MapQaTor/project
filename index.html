@@ -40,6 +40,16 @@
             padding: 0;
             text-align:justify;
         }
+        .demo_AlZc {
+            border-radius: 10px;
+            border-width: 1px;
+            border-color: gray;
+            /* padding: 30px; */
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+
          /* body {
             font-family: 'Roboto', sans-serif;
             font-size: 18px;
@@ -159,6 +169,7 @@
             Department of Computer Science and Engineering<br>
             Bangladesh University of Engineering and Technology (BUET)
         </p>
+        
         <p style="text-align: center; margin-top: -1.2rem; font-weight: 500; font-size: medium;">
             <sup style="color: orangered">2</sup>
             Qatar Computing Research Institute (QCRI)
@@ -201,7 +212,7 @@
         <!-- <embed src="files/overview.pdf" type="application/pdf" width="100%" height="600px" /> -->
 
         <img src="images/overview.svg" alt="Overview"
-            style="width: 100%; margin-top: 1rem; margin-top: 2rem; border-width: 2px; border-color: black; border-style: solid;">
+            style="width: 100%; margin-top: 1rem; margin-top: 2rem; border-width: 2px; border-color: black; border-style: solid; border-radius: 10px;">
         <p>Overview of MapQaTor. It enables users to interact with map APIs by submitting queries, processing responses, and visualizing data. The framework allows users to design question-answer pairs and export the dataset in JSON format for downstream applications. The whole working flow is shown using ten key steps.</p>
 
         <h2 style="text-align: center;">Introduction</h2>
@@ -220,7 +231,15 @@
             reasoning datasets.
         </p>
 
+     
+
         <h2 style="text-align: center;">MapQaTor Overview</h2>
+
+        <video playsinline="" autoplay="" loop="" class="demo_AlZc" muted=""
+            style="border: #000 solid; border-width: 2px; border-radius: 10px; width: 100%; margin: 0 auto; display: flex; margin-bottom: 2rem;">
+            <source src="images/demo.mp4" type="video/mp4">
+        </video>
+
         We present MapQaTor, a web application designed to streamline the creation of map-based QA datasets. MapQaTor
         empowers researchers to seamlessly integrate with any map API in a plug-and-play manner, enabling them to gather,
         visualize, and annotate geospatial data with minimal setup. By caching API responses, the platform ensures a consistent
